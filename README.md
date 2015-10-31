@@ -1,7 +1,6 @@
-VeganMelb
-=========
+MBS Food Map
 
-Source code for http://veganmelbourne.com.au
+This is pretty much based on the work from https://github.com/xaviershay/veganmelb.
 
 ## Adding new data
 
