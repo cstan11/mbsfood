@@ -1,4 +1,4 @@
-MBS Food Map
+MBS Coffe Map
 
 This is pretty much based on the work from https://github.com/xaviershay/veganmelb.
 
