@@ -1,8 +1,8 @@
 $(function() {
   $(window).unload( function () { GUnload(); } );
-  var melbourne = new google.maps.LatLng(-37.813611, 144.963056);
+  var melbourne = new google.maps.LatLng(-37.8014817, 144.9617555);
   var mapOptions = {
-    zoom: 11,
+    zoom: 18,
     center: melbourne,
     mapTypeId: google.maps.MapTypeId.ROADMAP
   }
