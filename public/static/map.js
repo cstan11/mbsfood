@@ -18,12 +18,12 @@ $(function() {
       var point = new google.maps.LatLng(place.location.lat, place.location.lng);
       var icons = {
         'Bar':        "/static/bar.png",
-        'Restaurant': "http://google-maps-icons.googlecode.com/files/restaurant.png",
-        'Shopping':   "http://google-maps-icons.googlecode.com/files/supermarket.png",
-        'Gift':       "http://google-maps-icons.googlecode.com/files/gifts.png",
-        'Fast Food':  "http://google-maps-icons.googlecode.com/files/fastfood.png",
-        'Clothing':   "http://google-maps-icons.googlecode.com/files/shoes.png",
-        'Market':     "http://google-maps-icons.googlecode.com/files/market.png",
+        'Restaurant': "https://google-maps-icons.googlecode.com/files/restaurant.png",
+        'Shopping':   "https://google-maps-icons.googlecode.com/files/supermarket.png",
+        'Gift':       "https://google-maps-icons.googlecode.com/files/gifts.png",
+        'Fast Food':  "https://google-maps-icons.googlecode.com/files/fastfood.png",
+        'Clothing':   "https://google-maps-icons.googlecode.com/files/shoes.png",
+        'Market':     "https://google-maps-icons.googlecode.com/files/market.png",
         'Veterinary':   "/static/veterinary.png",
         'Hair Dresser': '/static/barber.png',
         'Beauty':       '/static/beautysalon.png'
@@ -41,7 +41,7 @@ $(function() {
 
         if (currentPlace) {
           info.animate(
-            {right: "-345px"}, 
+            {right: "-345px"},
             {complete: function() {
               if (clickedPlace == currentPlace) {
                 currentPlace = null;
