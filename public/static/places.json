@@ -1174,5 +1174,17 @@
       "lng": 145.106459,
       "lat": -37.860563
     }
+  },
+  {
+    "name": "StoveTop",
+    "address": "100 LEICESTER STREET, CARLTON, VIC 3053",
+    "phoneNumber": "+61 3 9807 5158",
+    "description": "Blah Blah",
+    "url": "http://www.stovetop.com.au/",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.960859,
+      "lat": -37.803708
+    }
   }
 ]
