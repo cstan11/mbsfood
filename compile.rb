@@ -22,6 +22,7 @@ def geocode(places)
   end
 end
 
+=begin
 def csv2html(content)
   CSV.read(content, headers: true).map do |row|
     if row[3]
@@ -49,6 +50,7 @@ end
   out = template.result(binding)
   File.open("public/#{category}.html", "w") {|f| f.write(out) }
 end
+=end
 
 existing_places = JSON.parse(File.read("public/static/places.json"))
 
