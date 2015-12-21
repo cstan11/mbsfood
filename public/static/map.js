@@ -48,11 +48,11 @@ $(function() {
               } else {
                 currentPlace = clickedPlace;
                 if (currentPlace.url) {
-                  $('h1', info).empty().html($("<a></a>").attr('href', clickedPlace.url).text(clickedPlace.name));
+                  $('.shoptitle', info).empty().html($("<a></a>").attr('href', clickedPlace.url).text(clickedPlace.name));
                 } else {
-                  $('h1', info).html(clickedPlace.name);
+                  $('.shoptitle', info).html(clickedPlace.name);
                 }
-                $('p',  info).html(clickedPlace.description);
+                $('.shopdescription',  info).html(clickedPlace.description);
                 $('.address',  info).text(clickedPlace.address);
                 $('.phone',  info).text(clickedPlace.phoneNumber);
                 info.animate({right: "0"});
@@ -62,11 +62,11 @@ $(function() {
         } else {
           currentPlace = clickedPlace;
                 if (currentPlace.url) {
-                  $('h1', info).empty().html($("<a></a>").attr('href', clickedPlace.url).text(clickedPlace.name));
+                  $('.shoptitle', info).empty().html($("<a></a>").attr('href', clickedPlace.url).text(clickedPlace.name));
                 } else {
-                  $('h1', info).html(clickedPlace.name);
+                  $('.shoptitle', info).html(clickedPlace.name);
                 }
-          $('p',  info).text(clickedPlace.description);
+          $('.shopdescription',  info).text(clickedPlace.description);
           $('.address',  info).text(clickedPlace.address);
           $('.phone',  info).text(clickedPlace.phoneNumber);
           info.animate({right: "0"});

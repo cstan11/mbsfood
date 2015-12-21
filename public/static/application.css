@@ -127,7 +127,7 @@ ol {
   margin-bottom: 0.5em;
 }
 
-.address, .phone {
+.shoptitle, .shopdescription, .address, .phone {
   font-size: 11px;
   display: block;
 }
