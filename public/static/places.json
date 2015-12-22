@@ -142,5 +142,17 @@
       "lng": 144.9602432,
       "lat": -37.8021983
     }
+  },
+  {
+    "name": "Uni Square Cafe",
+    "address": "165 Pelham Street Carlton Victoria 3053",
+    "phoneNumber": "-",
+    "description": "Asian Cheap eats. Open 10am - 8pm (most days). 11am - 3pm (Sat). Closed on Sun",
+    "url": "http://www.yelp.com.au/biz/uni-square-cafe-carlton-2",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.961079,
+      "lat": -37.802402
+    }
   }
 ]
