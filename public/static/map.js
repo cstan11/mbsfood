@@ -40,9 +40,9 @@ $(function() {
         var clickedPlace = place;
         var info = $('#placeDetails');
 
-        if (currentPlace) {
+        /*if (currentPlace) {
           info.animate(
-            {right: "-345px"},
+            {left: "0px"},
             {complete: function() {
               if (clickedPlace == currentPlace) {
                 currentPlace = null;
@@ -56,7 +56,7 @@ $(function() {
                 $('.shopdescription',  info).html(clickedPlace.description);
                 $('.address',  info).text(clickedPlace.address);
                 $('.phone',  info).text(clickedPlace.phoneNumber);
-                info.animate({right: "0"});
+                //info.animate({right: "0"});
                 //set info window content
                 var contentString = '<div>'+
                                     '<h1>'+clickedPlace.name+'</h1>'+
@@ -64,7 +64,6 @@ $(function() {
                                     '<h2>'+clickedPlace.address+'</h2>'+
                                     '<h1>'+clickedPlace.phoneNumber+'</h1>'+
                                     '</div>';
-
 
                 openInfoWindow(marker, info)
                 function openInfoWindow(marker, info) {
@@ -75,7 +74,9 @@ $(function() {
               }
             }}
           )
-        } else {
+        } */
+
+      //else {
           currentPlace = clickedPlace;
                 if (currentPlace.url) {
                   $('.shoptitle', info).empty().html($("<a></a>").attr('href', clickedPlace.url).text(clickedPlace.name));
@@ -85,7 +86,7 @@ $(function() {
           $('.shopdescription',  info).text(clickedPlace.description);
           $('.address',  info).text(clickedPlace.address);
           $('.phone',  info).text(clickedPlace.phoneNumber);
-          info.animate({right: "0"});
+          //info.animate({left: "0"});
           //set info window content
           var contentString = '<div>'+
                               '<h1>'+clickedPlace.name+'</h1>'+
@@ -100,7 +101,7 @@ $(function() {
         }
         // info window load finish
 
-        }
+        //}
       });
     });
     var markerCluster = new MarkerClusterer(map, markers, {gridSize: 25});
