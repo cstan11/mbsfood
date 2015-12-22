@@ -17,6 +17,7 @@ $(function() {
 
   $.getJSON('/static/places.json', function(places) {
     var currentPlace = null;
+    var infoWindow = new google.maps.InfoWindow();
 
     $(places).each(function() {
       var place = this;
@@ -56,6 +57,21 @@ $(function() {
                 $('.address',  info).text(clickedPlace.address);
                 $('.phone',  info).text(clickedPlace.phoneNumber);
                 info.animate({right: "0"});
+                //set info window content
+                var contentString = '<div>'+
+                                    '<h1>'+clickedPlace.name+'</h1>'+
+                                    '<h2>'+clickedPlace.description+'</h2>'+
+                                    '<h2>'+clickedPlace.address+'</h2>'+
+                                    '<h1>'+clickedPlace.phoneNumber+'</h1>'+
+                                    '</div>';
+
+
+                openInfoWindow(marker, info)
+                function openInfoWindow(marker, info) {
+                 infoWindow.setContent(contentString);
+                 infoWindow.open(map, marker); // open the infoWindow above the marker. the maps API will bind the close button click for you.
+              }
+              // info window load finish
               }
             }}
           )
@@ -70,6 +86,20 @@ $(function() {
           $('.address',  info).text(clickedPlace.address);
           $('.phone',  info).text(clickedPlace.phoneNumber);
           info.animate({right: "0"});
+          //set info window content
+          var contentString = '<div>'+
+                              '<h1>'+clickedPlace.name+'</h1>'+
+                              '<h2>'+clickedPlace.description+'</h2>'+
+                              '<h2>'+clickedPlace.address+'</h2>'+
+                              '<h1>'+clickedPlace.phoneNumber+'</h1>'+
+                              '</div>';
+          openInfoWindow(marker, info)
+          function openInfoWindow(marker, info) {
+           infoWindow.setContent(contentString);
+           infoWindow.open(map, marker); // open the infoWindow above the marker. the maps API will bind the close button click for you.
+        }
+        // info window load finish
+
         }
       });
     });
