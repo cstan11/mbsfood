@@ -154,5 +154,17 @@
       "lng": 144.961079,
       "lat": -37.802402
     }
+  },
+  {
+    "name": "Nasi Lemak House",
+    "address": "113 Grattan St Melbourne Victoria 3053",
+    "phoneNumber": "(03) 9348 1572",
+    "description": "Malaysian. Open 10am - 10pm (most days). 11am - 10pm (Sat, Sun)",
+    "url": "http://www.yelp.com.au/biz/nasi-lemak-house-melbourne",
+    "type": "Restaurant",
+    "location": {
+      "lng": 144.965744,
+      "lat": -37.800814
+    }
   }
 ]
