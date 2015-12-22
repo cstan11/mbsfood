@@ -3,7 +3,7 @@
     "name": "Animal Orchestra",
     "address": "163 Grattan St, Carlton, VIC 3053",
     "phoneNumber": "(03) 9349 4944",
-    "description": "Cafe. Breakfast and lunch",
+    "description": "Cafe. Breakfast and lunch. Open 7.30am - 10pm. Closed on Sun.",
     "url": "http://www.yelp.com.au/biz/animal-orchestra-carlton",
     "type": "Restaurant",
     "location": {
@@ -15,7 +15,7 @@
     "name": "StoveTop",
     "address": "100 LEICESTER STREET, Carlton, VIC 3053",
     "phoneNumber": "+61 3 9807 5158",
-    "description": "Cafe. Breakfast and lunch and occasionally evening cocktails",
+    "description": "Cafe. Breakfast and lunch and occasionally evening cocktails. Open 7am - 5pm (most days), 8am -4pm (Sat, Sun)",
     "url": "http://www.yelp.com.au/biz/stovetop-carlton",
     "type": "Restaurant",
     "location": {
@@ -27,7 +27,7 @@
     "name": "Seven Seeds",
     "address": "106-114 Berkeley St Carlton Victoria 3053",
     "phoneNumber": "(03) 9347 8664",
-    "description": "Cafe. Breakfast and lunch",
+    "description": "Cafe. Breakfast and lunch. Open 7am - 5pm (most days), 8am - 5pm (Sun)",
     "url": "http://www.yelp.com.au/biz/seven-seeds-carlton",
     "type": "Restaurant",
     "location": {
@@ -39,7 +39,7 @@
     "name": "Middle Fish",
     "address": "122-128 Berkeley St Carlton Victoria 3053",
     "phoneNumber": "(03) 9348 1704",
-    "description": "Thai. Breakfast and lunch",
+    "description": "Thai. Breakfast, lunch and dinner. Open 8am - 10pm (most days), 8am - 5pm (Sun, Mon)",
     "url": "http://www.yelp.com.au/biz/middle-fish-carlton",
     "type": "Restaurant",
     "location": {
@@ -51,7 +51,7 @@
     "name": "Kaprica",
     "address": "19 Lincoln Square S Carlton Victoria 3053",
     "phoneNumber": "(03) 9347 1138",
-    "description": "Pizza. Lunch and dinner",
+    "description": "Pizza. Lunch and dinner. Open 10am - 10pm",
     "url": "http://www.yelp.com.au/biz/kaprica-carlton",
     "type": "Restaurant",
     "location": {
@@ -63,7 +63,7 @@
     "name": "Norsiah’s Kitchen",
     "address": "Shop 101 D 604 Swanston St Carlton Victoria 3053",
     "phoneNumber": "(03) 9347 7079",
-    "description": "Indon. Lunch and dinner",
+    "description": "Indon. Lunch and dinner. Open 11.30am - 9.30pm",
     "url": "http://www.yelp.com.au/biz/norsiahs-kitchen-carlton",
     "type": "Restaurant",
     "location": {
@@ -75,7 +75,7 @@
     "name": "Papa Gino’s",
     "address": "221 Lygon St Carlton Victoria 3053",
     "phoneNumber": "(03) 9347 5758",
-    "description": "Pizza. Lunch and dinner",
+    "description": "Pizza. Lunch and dinner. Opening hours is abit weird, check Yelp",
     "url": "http://www.yelp.com.au/biz/papa-ginos-carlton",
     "type": "Restaurant",
     "location": {
@@ -87,7 +87,7 @@
     "name": "Don Tojo",
     "address": "164 Cardigan St Carlton Victoria 3053",
     "phoneNumber": "-",
-    "description": "Japanese. Lunch and dinner",
+    "description": "Japanese. Lunch and dinner. Open 11.30am - 8.30pm",
     "url": "http://www.yelp.com.au/biz/don-tojo-carlton",
     "type": "Restaurant",
     "location": {
@@ -99,7 +99,7 @@
     "name": "Hotel Lincoln",
     "address": "91 Cardigan St Carlton Victoria 3053",
     "phoneNumber": "(03) 9347 4666",
-    "description": "Pub. Lunch and dinner",
+    "description": "Pub. Lunch and dinner. Open 12pm - 11pm",
     "url": "http://www.yelp.com.au/biz/hotel-lincoln-carlton",
     "type": "Restaurant",
     "location": {
@@ -111,7 +111,7 @@
     "name": "Assembly",
     "address": "60 - 62 Pelham St Carlton Victoria 3053",
     "phoneNumber": "-",
-    "description": "Coffee and Tea. NO FOOD",
+    "description": "Coffee and Tea. NO FOOD. Open 7.30am - 4pm, Closed on Sunday",
     "url": "http://www.yelp.com.au/biz/assembly-carlton",
     "type": "Restaurant",
     "location": {
@@ -123,7 +123,7 @@
     "name": "Queensberry Pour House",
     "address": "210 Queensberry St Carlton Victoria 3053",
     "phoneNumber": "-",
-    "description": "Cafe. Breakfast and lunch. BOTTOMLESS FILTER COFFEE",
+    "description": "Cafe. Breakfast and lunch. BOTTOMLESS FILTER COFFEE. Open 7am - 4pm, 8am - 3pm (Sat), Closed on Sun",
     "url": "http://www.yelp.com.au/biz/queensberry-pour-house-carlton",
     "type": "Restaurant",
     "location": {

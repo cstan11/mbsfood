@@ -17,7 +17,7 @@ $(function() {
 
   $.getJSON('/static/places.json', function(places) {
     var currentPlace = null;
-    var infoWindow = new google.maps.InfoWindow();
+    var infoWindow = new google.maps.InfoWindow({maxWidth: 200});
 
     $(places).each(function() {
       var place = this;
@@ -39,6 +39,7 @@ $(function() {
       google.maps.event.addListener(marker, 'click', function() {
         var clickedPlace = place;
         var info = $('#placeDetails');
+        currentPlace = clickedPlace;
 
         /*if (currentPlace) {
           info.animate(
@@ -77,25 +78,23 @@ $(function() {
         } */
 
       //else {
-          currentPlace = clickedPlace;
-                if (currentPlace.url) {
+              /*  if (currentPlace.url) {
                   $('.shoptitle', info).empty().html($("<a></a>").attr('href', clickedPlace.url).text(clickedPlace.name));
                 } else {
                   $('.shoptitle', info).html(clickedPlace.name);
                 }
           $('.shopdescription',  info).text(clickedPlace.description);
           $('.address',  info).text(clickedPlace.address);
-          $('.phone',  info).text(clickedPlace.phoneNumber);
+          $('.phone',  info).text(clickedPlace.phoneNumber);*/
           //info.animate({left: "0"});
           //set info window content
-          var contentString = '<section id="availability">'+
-                              '<div class="map">'+
+          var contentString =
                               '<h1>'+clickedPlace.name+'</h1>'+
-                              '<h2>'+clickedPlace.description+'</h2>'+
+                              '<p>'+clickedPlace.description+'</p>'+
                               '<h2>'+clickedPlace.address+'</h2>'+
                               '<h2>'+clickedPlace.phoneNumber+'</h2>'+
-                              '</div>'
-                              '</section>';
+                              '<p>'+'<a target="_blank" href="'+clickedPlace.url+'">'+clickedPlace.url+'</a>'+'</p>';
+
           openInfoWindow(marker, info)
           function openInfoWindow(marker, info) {
            infoWindow.setContent(contentString);
