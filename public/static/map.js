@@ -88,12 +88,14 @@ $(function() {
           $('.phone',  info).text(clickedPlace.phoneNumber);
           //info.animate({left: "0"});
           //set info window content
-          var contentString = '<div>'+
+          var contentString = '<section id="availability">'+
+                              '<div class="map">'+
                               '<h1>'+clickedPlace.name+'</h1>'+
                               '<h2>'+clickedPlace.description+'</h2>'+
                               '<h2>'+clickedPlace.address+'</h2>'+
-                              '<h1>'+clickedPlace.phoneNumber+'</h1>'+
-                              '</div>';
+                              '<h2>'+clickedPlace.phoneNumber+'</h2>'+
+                              '</div>'
+                              '</section>';
           openInfoWindow(marker, info)
           function openInfoWindow(marker, info) {
            infoWindow.setContent(contentString);
